@@ -50,7 +50,7 @@ public class Bon {
     }
 
 
-    public Bon(String serverNamename,Double checkAmount,LocalDate time, int tableNr, String orderedFood) {
+    public Bon(String serverName,Double checkAmount,LocalDate time, int tableNr, String orderedFood) {
         this.serverName= serverName;
         this.checkAmount = checkAmount;
         this.time = time;
